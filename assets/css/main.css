@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background: grey;
+    color: white;
+}
+
+.kontener {
+    padding-top: 0px;
+    height: 100%;
+}
+
+em {
+	color: rgba(127, 255, 212, 0.2);
+}
+
+u {
+	text-decoration-style: wavy;
+}	
+	
+h1,h2,h3,h4,h5 {
+    max-width: 100vw;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.sekcja {
+    min-width: 100vw;
+    height: auto;
+    min-height: 100%;
+}
+
+.container {
+    padding: 30px;
+}
+
+.contents {
+}
+
+.contents.text {
+}
+
+.row {
+}
+
+p {
+    margin: 1em auto;
+    padding: 0 1em;
+    max-width: 80ch;
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.3em;
+    font-family: sans-serif;
+    text-indent: 2em;
+}
+
+.lista {
+    list-style-type: decimal;
+}
+
+ol ol {
+	list-style-type: lower-roman;
+    margin-left: 30px;
+}
+
+.listbox {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 87px;
+    font-size: 1.3em;
+}
+
+table {
+    width: 400px;
+    max-width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-family: monospace;
+    border: 1px solid;
+	border-color: white;
+}
+
+table thead {
+    background: blue;
+}
+
+table th {
+    background: rgb(105, 105, 105);
+	border: 1px solid;
+	border-color: white;
+}
+
+table td {
+	border: 1px solid;
+	border-color: white;
+}
+
+table tr:nth-of-type(odd) {
+
+}
+
+table tr:nth-of-type(even) {
+    background: rgb(255, 255, 255, 0.2);
+}
+
+table td:nth-of-type(odd) {
+
+}
+
+table td:nth-of-type(even) {
+    background: rgb(0, 191, 255, 0.2);
+}
